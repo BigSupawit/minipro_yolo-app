@@ -83,7 +83,7 @@ export default function Home() {
             {isLoadingModel ? (
               <span className="text-xs text-yellow-800 px-3 py-1  font-medium flex items-center gap-1">
                 <Loader2 className="w-3 h-3 animate-spin" /> กำลังโหลดโมเดล AI (
-                {detectMode === "rect" ? "Bounding Box" : "Polygon"})...
+                {detectMode === "rect" ? "Rectangle" : "Polygon"})...
               </span>
             ) : (
               <span className="text-xs  text-green-800 px-3 py-1  font-bold">
