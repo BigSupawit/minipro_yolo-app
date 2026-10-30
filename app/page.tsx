@@ -75,7 +75,7 @@ export default function Home() {
         <div className="text-center">
           <h1 className="text-3xl font-bold text-gray-900">YOLO 👀</h1>
           <p className="text-black font-bold mt-5">
-            ระบบตรวจจับสัตว์ป่า 4 ชนิด ได้แก้ กวาง กระทิง หมาใน ช้าง
+            ระบบตรวจจับสัตว์ป่า 4 ชนิด ได้แก่ กวาง กระทิง หมาใน ช้าง
           </p>
 
           {/* แสดงสถานะการโหลดโมเดล */}
@@ -131,7 +131,7 @@ export default function Home() {
               <input {...getInputProps()} />
               <UploadCloud className="mx-auto h-12 w-12 text-black group-hover:text-white transition-colors mb-2" />
               <p className="text-black group-hover:text-white font-medium transition-colors">
-                ลากรูปภาพสัตว์ป่ามาวาง หรือคลิกเพื่อเลือกไฟล์
+                เลือกไฟล์รูป
               </p>
               <p className="text-black group-hover:text-white text-sm mt-2 transition-colors">
                 รองรับไฟล์ JPG, PNG
